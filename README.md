@@ -1,10 +1,10 @@
 # Covid-19-Tracker
 Coranvirus Cases tracker in the world using React-JS
 
-#Framework used
+## Framework used
 React-js
 
-#Additional Library used
+## Additional Library used
 Material-Ui,
 Axios,
 Chart-Js,
