@@ -1,0 +1,36 @@
+.container {
+    margin: 20px 0 !important;
+}
+
+.card {
+    margin: 0 2% !important;
+    height: 10% !important;
+}
+
+.infected {
+    border-bottom-style: solid !important;
+    border-bottom-color: rgba(0, 0, 255, 0.5) !important;
+    border-bottom-width: thick !important;
+}
+
+.recovered {
+    border-bottom-style: solid !important;
+    border-bottom-color: rgba(0, 255, 0, 0.5) !important;
+    border-bottom-width: thick !important;
+}
+
+.deaths {
+    border-bottom-style: solid !important;
+    border-bottom-color: rgba(255, 0, 0, 0.5) !important;
+    border-bottom-width: thick !important;
+}
+@media only screen and (max-width: 600px) {
+    .card{
+        max-height: 120px !important;
+    }
+    .container {
+        margin-top: 10px;
+        margin: 0px 0 !important;
+    }
+     
+  }
